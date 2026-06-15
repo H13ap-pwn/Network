@@ -10,6 +10,6 @@
 - `Switch` : Giúp kết nối các thiết bị trong cùng mạng LAN
 - `Router` : Kết nối mạng LAN với internet
 - `Subnet` : Mạng con, khi phân chia thành mạng con dễ quản lý, bảo trì, tối ưu hiệu năng 
-- `Network address (Subnet mask)` : Địa chỉ mạng , định danh cho cả đoạn subnet
+- `Network address` : Địa chỉ mạng , định danh cho cả đoạn subnet
 - `Host address` : Định danh cho thiết bị cụ thể
 - `Cổng gateway` : Nơi dữ liệu ra hoặc vào mạng LAN đi qua
