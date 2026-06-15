@@ -15,3 +15,4 @@
 - `Cổng gateway` : Nơi dữ liệu ra hoặc vào mạng LAN đi qua
 - `ARP` : Chuyển IP address -> MAC address để switch có thể truyền dữ liệu giữa các thiết bị trong cùng mạng LAN
   + `ARP cache` : Ghi nhớ việc IP addres -> MAC address để ko phải lặp lại nhiều lần
+- `DHCP` : Cấp IP private cho thiết bị khi kết nối vào mạng LAN
