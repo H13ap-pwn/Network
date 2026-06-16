@@ -29,3 +29,5 @@
   + Layer 5 : Tạo, duy trì, đóng kết nối với máy khác và có `checkpoint` giúp đồng bộ dữ liệu, phục hồi khi có sự cố
   + Layer 6 : Biên dịch, mã hóa, nén dữ liệu
   + Layer 7 : Giao diện, dịch vụ người dùng  
+- `Packet` < tầng 3 > : Chứa dữ liệu từ tầng trên xuống và ghi IP nguồn, đích
+- `Frame` < tầng 2 > : Đóng gói packet để vận chuyển ở tầng vật lý
