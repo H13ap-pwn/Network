@@ -13,7 +13,19 @@
 - `Network address` : Địa chỉ mạng , định danh cho cả đoạn subnet
 - `Host address` : Định danh cho thiết bị cụ thể
 - `Cổng gateway` : Nơi dữ liệu ra hoặc vào mạng LAN đi qua
-- `ARP` : Chuyển IP address -> MAC address để switch có thể truyền dữ liệu giữa các thiết bị trong cùng mạng LAN
+- `ARP` : Chuyển IP address -> MAC address để `switch` có thể truyền dữ liệu giữa các thiết bị trong cùng mạng LAN
   + `ARP cache` : Ghi nhớ việc IP addres -> MAC address để ko phải lặp lại nhiều lần
 - `DHCP` : Cấp IP private cho thiết bị khi kết nối vào mạng LAN
+- `NIC` : Phần cứng giúp thiết bị kết nối mạng
 - `Mô hình OSI` : Physical -> Data Link -> Network -> Transport -> Session -> Presentation -> Application
+  + Layer 1 : Biến dữ liệu `<logic>` -> `vật lý`
+  + Layer 2 : Đóng khung, bảo vệ dữ liệu
+  + Layer 3 : Routing định tuyến tìm đường tối ưu
+  + Layer 4 : Quản lý cách truyền dữ liệu
+  
+              TCP : Giao thức dẫn truyền an toàn, chính xác nhưng chậm
+
+              UDP : Chuyển thẳng dữ liệu, ko quan tâm có nhận được dữ liệu ko
+  + Layer 5 : Tạo, duy trì, đóng kết nối với máy khác và có `checkpoint` giúp đồng bộ dữ liệu, phục hồi khi có sự cố
+  + Layer 6 : Biên dịch, mã hóa, nén dữ liệu
+  + Layer 7 : Giao diện, dịch vụ người dùng  
