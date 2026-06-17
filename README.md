@@ -34,3 +34,4 @@
 - `Mô hình TCP/IP` : Network interface(1 + 2) -> Internet(3) -> Transport(4) -> Application(5 + 6 + 7)
   + Mở kết nối dùng "3-way handshake" : SYN -> SYN/ACK -> ACK
   + Đóng kết nối dùng "4-way handshake" : FIN -> ACK -> FIN -> ACK 
+- `Port` : Địa chị cụ thể của các ứng dụng trong cùng một thiết bị , `IP` là địa chỉ nhà (thiết bị) thì `Port` là số phòng trong nhà (ứng dụng)
