@@ -38,3 +38,4 @@
 - `Port Forwarding` : Show số `port` (có thể khác port hiện tại) ra internet để người khác có thể kết nối vào ứng dụng đó
 - `Stateful Firewall` : Kiểm tra `packet` dựa trên lịch sử và ngữ cảnh nhờ vào `state table`
 - `Stateless Firewall` : Kiểm tra độc lập từng `packet`
+- `VPN` : Tạo ra mạng riêng ảo giữa các thiết bị
