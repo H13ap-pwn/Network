@@ -35,3 +35,4 @@
   + Mở kết nối dùng "3-way handshake" : SYN -> SYN/ACK -> ACK
   + Đóng kết nối dùng "4-way handshake" : FIN -> ACK -> FIN -> ACK 
 - `Port` : Địa chị cụ thể của các ứng dụng trong cùng một thiết bị , `IP` là địa chỉ nhà (thiết bị) thì `Port` là số phòng trong nhà (ứng dụng)
+- `Port Forwarding` : Show số `port` (có thể khác port hiện tại) ra internet để người khác có thể kết nối vào ứng dụng đó
