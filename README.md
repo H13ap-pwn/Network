@@ -9,7 +9,8 @@
   + Ring Topology : Chi phí trung bình, hiệu năng ổn định, hỏng khi một máy bị tắt hoặc đoạn cáp bị đứt(dễ)
 - `Switch` : Giúp kết nối các thiết bị trong cùng mạng LAN
 - `Router` : Kết nối mạng LAN với internet
-- `Subnet` : Mạng con, khi phân chia thành mạng con dễ quản lý, bảo trì, tối ưu hiệu năng 
+- `Subnet` : Mạng con, khi phân chia thành mạng con dễ quản lý, bảo trì, tối ưu hiệu năng
+- `Subnet Mask` : Dãy số tương tự IP, giúp lọc IP address -> Network & Host address = bitwise &
 - `Network address` : Địa chỉ mạng , định danh cho cả đoạn subnet
 - `Host address` : Định danh cho thiết bị cụ thể
 - `Cổng gateway` : Nơi dữ liệu ra hoặc vào mạng LAN đi qua
