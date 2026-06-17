@@ -31,3 +31,6 @@
   + Layer 7 : Giao diện, dịch vụ người dùng  
 - `Packet` < tầng 3 > : Chứa dữ liệu từ tầng trên xuống và ghi IP nguồn, đích
 - `Frame` < tầng 2 > : Đóng gói packet để vận chuyển ở tầng vật lý
+- `Mô hình TCP/IP` : Network interface(1 + 2) -> Internet(3) -> Transport(4) -> Application(5 + 6 + 7)
+  + Mở kết nối dùng "3-way handshake" : SYN -> SYN/ACK -> ACK
+  + Đóng kết nối dùng "4-way handshake" : FIN -> ACK -> FIN -> ACK 
