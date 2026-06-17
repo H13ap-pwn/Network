@@ -39,3 +39,4 @@
 - `Stateful Firewall` : Kiểm tra `packet` dựa trên lịch sử và ngữ cảnh nhờ vào `state table`
 - `Stateless Firewall` : Kiểm tra độc lập từng `packet`
 - `VPN` : Tạo ra mạng riêng ảo giữa các thiết bị
+- `VLAN` : Chia mạng LAN thành nhiều mạng LAN ảo nhỏ hơn ở phần cứng
