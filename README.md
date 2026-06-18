@@ -1,6 +1,6 @@
 - `IP address` : Là chuỗi mã định danh như địa chỉ nhà, giúp các thiết bị nhận diện gồm IPv4(32bit, 4octet) và IPv6(128bit)
-  + `IP Public` : Khi truy cập internet, số này sẽ được cấp phát theo nhà mạng
-  + `IP Private` : Giúp phân biệt các thiết bị trong mạng LAN
+  + `IP Public` : Khi truy cập internet, số này sẽ được cấp phát theo nhà mạng < định tuyến wifi / router > 
+  + `IP Private` : Giúp phân biệt các thiết bị trong mạng LAN < định tuyến thiết bị > 
 - `MAC address` : Địa chỉ phần cứng 
 - `Ping` : Độ trễ khi gửi dữ liệu
 - `LAN` : Hệ thống mạng nội bộ (Ví dụ wifi nhà riêng, trường gồm nhiều học sinh -> trường là mạng LAN)
